@@ -12,5 +12,6 @@ public class UserService implements com.itheima.service.UserService {
     @Override
     public void addUser(Users users) {
         userDao.addUser(users);
+        System.out.println("第一次修改");
     }
 }
